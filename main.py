@@ -9,9 +9,9 @@ def encode(palavra1, chave1):
     palavra[:0] = palavra1
     chave[:0] = chave1
 
-    arr = 'ABCDEFGHIJKLMNOPQRSTUVWXYZ'
-
-    lista[:0] = arr
+    lista = ['A', 'B', 'C', 'D', 'E', 'F', 'G', 'H', 'I', 'J',
+    'K', 'L', 'M', 'N', 'O', 'P', 'Q', 'R', 'S', 'T', 'U', 'V',
+    'W', 'X', 'Y', 'Z']
     dic = {}
 
     # POPULANDO O DICIONARIO
